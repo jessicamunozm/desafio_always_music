@@ -1,0 +1,7 @@
+create table students (
+    id serial primary key,
+    nombre varchar (255),
+    rut int unique, 
+    curso varchar (50),
+    nivel int
+    )
